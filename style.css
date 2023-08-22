@@ -13,16 +13,18 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.navegacion__nav__ul__item {
+.navegacion__nav__ul__li {
   list-style: none;
-  padding: 0.5rem;
+  padding: 0 1rem;
 }
-.navegacion__nav__ul__item__link {
+.navegacion__nav__ul__li__link {
   text-decoration: none;
   text-transform: uppercase;
   color: #4f5a78;
   font-weight: bold;
 }
 .navegacion__nav__logo {
+  font-size: 1.5rem;
+  font-weight: bold;
   color: #4f5a78;
 }/*# sourceMappingURL=style.css.map */
