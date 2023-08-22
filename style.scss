@@ -1,0 +1,40 @@
+//nestiong
+
+$color-primary: #4f5a78;
+$color-secondary: #c8deef;
+
+body{
+    background-color: $color-secondary;
+}
+.navegacion {
+
+    &__nav{
+        display: flex;
+        justify-content: space-around;
+        background-color: #f2f2f2;
+        align-items: center;
+
+        &__ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            &__item{
+                list-style: none;
+                padding: 0.5rem;
+
+                &__link{
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: $color-primary;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        &__logo{
+            color: $color-primary;
+        }
+    }
+
+}
